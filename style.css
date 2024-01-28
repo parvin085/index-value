@@ -1,0 +1,31 @@
+#wrapper{
+    width: 65%;
+    max-width: 880px;
+    margin: 40px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid violet;
+
+}
+th{
+    background-color: darkolivegreen;
+    color: white;
+}
+td{
+    padding: 5px 10px;
+}
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
